@@ -1,0 +1,91 @@
+body{
+  background-color: orange;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+}
+
+.white{
+  background-color: white;
+  margin: auto 8%;
+  padding: 10px;
+  border-radius: 30px;
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+.green{
+  height: 200px;
+  background-color: green;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.green:active{
+  background-color: #76F43F;
+}
+.blue{
+  height: 200px;
+  background-color: blue;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.blue:active{
+  background-color: #53A4EA;
+}
+.red{
+  height: 200px;
+  background-color: #3E0605;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.red:active{
+  background-color: red;
+}
+
+.yellow{
+  height: 200px;
+  background-color: #938200;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.yellow:active{
+  background-color: yellow;
+}
+
+
+.play{
+  min-width: 200%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Michroma', sans-serif;
+}
+.play:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+.green1{
+  background-color: #76F43F;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.blue1{
+  background-color: #53A4EA;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.red1{
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.yellow1{
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 20px;
+}
